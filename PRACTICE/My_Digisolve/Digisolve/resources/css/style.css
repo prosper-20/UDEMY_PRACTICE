@@ -4,14 +4,72 @@
 	box-sizing: border-box;
 }
 
-html {
+html, body {
 	background-color: white;
 	color: black;
 	text-rendering: optimizeLegibility;
+	font-size: 16px;
+	font-family: 'work Sans', 'Arial', Georgia, 'Times New Roman', Times, serif;
+	font-weight: 300;
 }
 
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
 	
+}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,.3), rgb(0,0,0,.7)),url(/My_Digisolve/Digisolve/resources/css/img/header-img.jpg);
+	height: 100vh; 
+	/* vh up there stands for viewport height. The heigjt adjusts to the screen 
+	automatically */
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+
+.header-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 500%;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 200%;
+	color: #fff;
+	font-weight: 400;
+}
+
+.header-text-box {
+	margin-bottom: 100px;
+}
+
+.btn:link,
+.btn:visited {
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 200px;
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: #ed07b7;
+	color: white;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	background-color: #BD0592;
 }
