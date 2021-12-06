@@ -76,4 +76,32 @@ h2 {
 
 .main-nav {
 	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	text-decoration: none;
+	color: #fff;
+	
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #ed07b7 ;
+}
+
+.logo {
+	height: 120px;
+	width: auto;
+	float: left;
+
 }
