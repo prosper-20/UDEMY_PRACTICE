@@ -55,6 +55,20 @@ h2 {
 	margin-bottom: 100px;
 }
 
+/* BUTTONS */
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 2px solid #ed07b7;
+	color: #ed07b7;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	background-color: #BD0592;
+	color: white;
+}
+
 .btn:link,
 .btn:visited {
 	text-decoration: none;
@@ -68,6 +82,7 @@ h2 {
 	background-color: #ed07b7;
 	color: white;
 }
+
 
 .btn-full:hover,
 .btn-full:active {
@@ -105,4 +120,36 @@ h2 {
 	width: auto;
 	float: left;
 
+}
+
+.laptop-img {
+	width: 80%;
+
+}
+
+.about-heading {
+	color: black;
+	font-size: 250%;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.about-para {
+	color: gray;
+	margin-bottom: 50px;
+	
+}
+
+.about-box {
+	margin-top: 150px;
+
+}
+
+.about-box:first-child {
+	text-align: left;
+	padding: 0 5%;
+}
+
+.about-box:last-child {
+	text-align: left;
 }
