@@ -90,6 +90,7 @@ h2 {
 .main-nav li a:visited {
 	text-decoration: none;
 	color: #fff;
+	transition: border-bottom 0.5s;
 	
 
 }
