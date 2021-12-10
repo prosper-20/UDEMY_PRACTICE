@@ -164,9 +164,10 @@ h2 {
 	font-size: 250%;
 	color: black;
 	margin-bottom: 20px;
+	margin-top: 150px ;
 }
 
-.section-subheading {
+.section-sub-heading {
 	font-size: 150%;
 	color: #555;
 	font-weight: 300;
@@ -177,11 +178,49 @@ h2 {
 	display: block;
 	height: 2px;
 	width: 100px;
-	background-color: #BD0592;
-	content: " ";
+	background-color: #ed07b7;
+	content:" ";
 	margin: 30px auto 0 auto;
 }
 
 .work-section {
 	text-align: center;
+	background-color: #f4f4f4;
+}
+
+.work-portfolio {
+	margin-top: 10px;
+	list-style: none;
+	width: 100%;
+
+}
+
+.work-portfolio li {
+	display: block;
+	width: 25%;
+	float: left;
+	
+}
+
+.portfolio-image {
+	background-color: black;
+	overflow: hidden;
+}
+
+.portfolio-image img {
+	width: 100%;
+	opacity:1.7;
+	height: auto;
+	transform:scale(1.15);
+	transition:transform 0.5s, opacity 0.5;
+}
+
+.portfolio-image img:hover {
+	transform: scale(1);
+	opacity: 1;
+
+}
+
+.work-para {
+	color: white;
 }
