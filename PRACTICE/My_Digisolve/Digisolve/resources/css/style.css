@@ -153,3 +153,7 @@ h2 {
 .about-box:last-child {
 	text-align: left;
 }
+
+.about-section {
+	padding-bottom: 15px;
+}
