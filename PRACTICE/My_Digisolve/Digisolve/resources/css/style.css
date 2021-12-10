@@ -172,3 +172,16 @@ h2 {
 	font-weight: 300;
 	margin-bottom: 30px;
 }
+
+.section-sub-heading:after {
+	display: block;
+	height: 2px;
+	width: 100px;
+	background-color: #BD0592;
+	content: " ";
+	margin: 30px auto 0 auto;
+}
+
+.work-section {
+	text-align: center;
+}
