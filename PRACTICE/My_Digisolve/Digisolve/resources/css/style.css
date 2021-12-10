@@ -157,3 +157,18 @@ h2 {
 .about-section {
 	padding-bottom: 15px;
 }
+
+/* WORK SECTION  */
+
+.section-heading {
+	font-size: 250%;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.section-subheading {
+	font-size: 150%;
+	color: #555;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
