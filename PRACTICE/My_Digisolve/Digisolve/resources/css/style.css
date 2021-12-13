@@ -19,6 +19,18 @@ html, body {
 	
 }
 
+/* CLEARFIX */
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+	visibility: hidden;
+}
+
 header {
 	background-image:linear-gradient(rgba(0,0,0,.3), rgb(0,0,0,.7)),url(/My_Digisolve/Digisolve/resources/css/img/header-img.jpg);
 	height: 100vh; 
@@ -224,3 +236,11 @@ h2 {
 .work-para {
 	color: white;
 }
+
+/* SERVICES SECTION */
+
+.services-section {
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
