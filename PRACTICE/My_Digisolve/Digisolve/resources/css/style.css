@@ -260,5 +260,16 @@ h2 {
 
 .service-para {
 	color: #555;
+	font-size: 90%;
+	margin-bottom: 20px;
+}
+
+.service-link {
+	color: #ed07b7;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.service-box {
+	padding: 1% 3%;
 }
 
