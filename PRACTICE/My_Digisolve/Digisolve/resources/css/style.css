@@ -288,9 +288,10 @@ h2 {
 
 
 /* TESTIMONIAL SECTION */
-.testimonial-section {
+.testimonials_section {
 	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	color: white;
 	text-align: center;
 }
@@ -321,4 +322,17 @@ blockquote:before {
 	font-size: 500%;
 	position: absolute;
 	left:-5px;
+}
+
+cite {
+	display: block;
+	margin-top: 25%;
+	font-size: 90%;
+}
+
+cite img {
+	border-radius: 50%;
+	height: 20%;
+	vertical-align: middle;
+	margin-right: 10%;
 }
