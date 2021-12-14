@@ -285,3 +285,9 @@ h2 {
 	width: 65%;
 	height: auto;
 }
+
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+	background-image: url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
+}
