@@ -289,5 +289,36 @@ h2 {
 
 /* TESTIMONIAL SECTION */
 .testimonial-section {
-	background-image: url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.testimonial-heading {
+	font-size: 250%;
+	margin-bottom: 30px;
+	margin-top: 150px;
+}
+
+.testimonial-box {
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+blockquote:before {
+	content: "\201C";
+	display: block;
+	font-size: 500%;
+	position: absolute;
+	left:-5px;
 }
