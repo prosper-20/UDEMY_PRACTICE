@@ -86,6 +86,7 @@ h2 {
 	text-decoration: none;
 	padding: 10px 30px;
 	border-radius: 200px;
+	display: inline-block;
 
 }
 
@@ -414,4 +415,9 @@ cite img {
 .package-box div:last-child {
 	border: 0;
 	text-align: center;
+	padding-left: 0;
+}
+
+.package-box div:first-child {
+	background-color: #fcfcfc;
 }
