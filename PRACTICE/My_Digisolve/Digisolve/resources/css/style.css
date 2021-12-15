@@ -390,3 +390,23 @@ cite img {
 	list-style: none;
 	
 }
+
+.small-icon {
+	color: #ed07b7;
+	font-size: 120%;
+	display: inline-block;
+	margin-right: 10px;
+	width: 30px;
+	text-align: center;
+}
+
+.package-box ul li {
+	color: #555;
+	padding: 5px 0;
+
+}
+
+.package-box div {
+	padding: 15px;
+	border-bottom: 1px solid #efefef;
+}
