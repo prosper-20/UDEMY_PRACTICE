@@ -336,3 +336,25 @@ cite img {
 	vertical-align: middle;
 	margin-right: 10%;
 }
+
+
+/* PACKAGES SECTION */
+
+.packages-section {
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+.packages-heading {
+	color: black;
+	font-size: 250%;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+
+.package-box {
+	background-color: #fff;
+	width: 90%;
+	margin-bottom: 30px;
+
+}
