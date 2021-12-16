@@ -440,6 +440,7 @@ cite img {
 	text-align: left;
 	width: 100%;
 	margin: 0 auto;
+	color: #555;
 }
 
 label {
@@ -457,7 +458,7 @@ textarea {
 }
 
 input[type=checkout] {
-	margin: 5px 10px;
+	margin: 1px 5px 10px 0;
 
 }
 
