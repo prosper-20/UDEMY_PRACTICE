@@ -432,4 +432,28 @@ cite img {
 
 .contact-heading {
 	color: black;
+	margin-top: 150px;
+	margin-bottom:50px;
+}
+
+.contact-form {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+label {
+	text-align: left;
+}
+
+input[type=text]
+input[type=email] 
+textarea {
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid #555;
+	background-color: #fff;
+
+	
 }
