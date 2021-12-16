@@ -421,3 +421,15 @@ cite img {
 .package-box div:first-child {
 	background-color: #fcfcfc;
 }
+
+
+/* CONTACT FORM */
+
+.contact-section {
+	text-align: center;
+
+}
+
+.contact-heading {
+	color: black;
+}
