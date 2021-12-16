@@ -82,7 +82,8 @@ h2 {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
 	text-decoration: none;
 	padding: 10px 30px;
 	border-radius: 200px;
@@ -91,14 +92,16 @@ h2 {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
 	background-color: #ed07b7;
 	color: white;
 }
 
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit] :hover {
 	background-color: #BD0592;
 }
 
@@ -457,6 +460,10 @@ textarea {
 	background-color: #fff;	
 }
 
+input[type=submit] {
+	border: 0;
+}
+
 input[type=checkout] {
 	margin: 1px 5px 10px 0;
 
@@ -469,4 +476,8 @@ textarea {
 
 label {
 	color: #555;
+}
+
+*:focus {
+	outline: none;
 }
