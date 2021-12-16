@@ -447,13 +447,25 @@ label {
 }
 
 input[type=text]
-input[type=email] 
+input[type=email],
 textarea {
 	width: 100%;
 	padding: 8px;
 	border-radius: 3px;
-	border: 1px solid #555;
-	background-color: #fff;
+	border: 1px solid #ccc;
+	background-color: #fff;	
+}
 
-	
+input[type=checkout] {
+	margin: 5px 10px;
+
+}
+
+
+textarea {
+	height: 100px;
+}
+
+label {
+	color: #555;
 }
