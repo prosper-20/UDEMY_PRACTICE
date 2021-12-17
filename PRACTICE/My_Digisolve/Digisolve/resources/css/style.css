@@ -534,3 +534,34 @@ footer {
 	font-size: 160%;
 }
 
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram {
+	transition:color 0.2s ;
+}
+
+.fa-facebook-f:hover {
+	color: #3b5998;
+}
+
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-google-plus-g:hover {
+	color: #dd4b39;
+}
+
+.fa-instagram:hover {
+	color: #517fa4;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 50px;
+	line-height: 1.5;
+}
+
+
+
