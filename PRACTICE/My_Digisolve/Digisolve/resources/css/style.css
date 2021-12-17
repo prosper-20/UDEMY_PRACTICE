@@ -481,3 +481,13 @@ label {
 *:focus {
 	outline: none;
 }
+
+
+/* FOOTER */
+
+footer {
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+	color: #888;
+}
