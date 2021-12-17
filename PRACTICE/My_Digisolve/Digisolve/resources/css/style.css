@@ -491,3 +491,25 @@ footer {
 	font-size: 80%;
 	color: #888;
 }
+
+
+.footer-nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+.social-links li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
