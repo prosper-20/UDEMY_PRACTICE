@@ -5,6 +5,22 @@
 	    font-size: 14px;
 	    
     }
+    .about-para {
+        margin-bottom: 20px;
+        
+    }
+
+    .section-heading,
+    .service-heading,
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading {
+     margin-top: 0px ;
+    }
+
+    .big-icon {
+        margin-bottom: 15px;
+    }
 }
 
 /* Smaller tablets to larger tablet screens */
