@@ -1,17 +1,15 @@
 /* Big tablets to smaller laptops screen */
 @media only screen and (max-width:1200px) {
-    .about-para {
-        color: red;
-        
+    html,
+    body {
+	    font-size: 14px;
+	    
     }
 }
 
 /* Smaller tablets to larger tablet screens */
 @media only screen and (max-width:1023px) {
-    .about-para {
-        color: purple;
-        
-    }
+    
 }
 
 /* larger phones to smaller tablets */
