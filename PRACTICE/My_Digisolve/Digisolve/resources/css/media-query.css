@@ -1,4 +1,19 @@
 /* Big tablets to smaller laptops screen */
 @media only screen and (max-width:1200px) {
+
+}
+
+/* Smaller tablets to larger tablet screens */
+@media only screen and (max-width:1023px) {
+    
+}
+
+/* larger phones to smaller tablets */
+@media only screen and (max-width:767px) {
+    
+}
+
+/* smaller to larger mobile phones */
+@media only screen and (max-width:479px) {
     
 }
