@@ -16,7 +16,7 @@
     .testimonial-heading,
     .packages-heading,
     .contact-heading {
-     margin-top: 0px ;
+     margin-top: 90px ;
     }
 
     .big-icon {
@@ -71,6 +71,39 @@
 
 /* larger phones to smaller tablets */
 @media only screen and (max-width:767px) {
+    html,
+    body {
+        font-size: 10px;
+    }
+
+    .header-text-box {
+        margin-bottom: 100px;
+    }
+
+    .about-heading {
+        margin-bottom: 20px;
+    }
+
+    section-heading,
+    .service-heading,
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading {
+     margin-top: 60px ;
+    }
+
+    .section-heading {
+        margin-bottom: 10px;
+
+    }
+
+    .section-sub-heading:after {
+        margin: 15px auto 0 auto;
+    }
+
+    .testimonial-heading {
+        margin-bottom: 10px;
+    }
     
 }
 
