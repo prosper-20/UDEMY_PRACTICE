@@ -138,4 +138,8 @@
         width: 100%;
         
     }
+
+    .contact-label {
+        padding-left: 0;
+    }
 }
