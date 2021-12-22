@@ -142,4 +142,11 @@
     .contact-label {
         padding-left: 0;
     }
+
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
