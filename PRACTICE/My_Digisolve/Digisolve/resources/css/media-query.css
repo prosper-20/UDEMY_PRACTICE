@@ -26,8 +26,30 @@
 
 /* Smaller tablets to larger tablet screens */
 @media only screen and (max-width:1023px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .about-box {
+        margin-top: 6px;
+    }
+
+    .about-box:first-child {
+        padding: 0;
+        padding-left: 5%;
+    }
+
+    .laptop-image {
+        padding-right: 5%;
+    }
     
 }
+
 
 /* larger phones to smaller tablets */
 @media only screen and (max-width:767px) {
