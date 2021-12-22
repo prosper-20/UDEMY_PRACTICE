@@ -149,4 +149,9 @@
         text-align: center;
         margin-bottom: 10px;
     }
+
+    .work-portfolio li{
+        width: 50%;
+    
+    }
 }
