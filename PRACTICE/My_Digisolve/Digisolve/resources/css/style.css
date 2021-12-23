@@ -32,6 +32,7 @@ html, body {
 }
 
 header {
+	background-image:-webkit-linear-gradient(rgba(0,0,0,.3), rgb(0,0,0,.7)),url(/My_Digisolve/Digisolve/resources/css/img/header-img.jpg);
 	background-image:linear-gradient(rgba(0,0,0,.3), rgb(0,0,0,.7)),url(/My_Digisolve/Digisolve/resources/css/img/header-img.jpg);
 	height: 100vh; 
 	/* vh up there stands for viewport height. The heigjt adjusts to the screen 
@@ -46,7 +47,8 @@ header {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	text-align: center;
 }
 
@@ -121,6 +123,7 @@ input[type=submit] :hover {
 .main-nav li a:visited {
 	text-decoration: none;
 	color: #fff;
+	-webkit-transition: border-bottom 0.5s;
 	transition: border-bottom 0.5s;
 	
 
@@ -228,12 +231,17 @@ input[type=submit] :hover {
 	width: 100%;
 	opacity:1.7;
 	height: auto;
-	transform:scale(1.15);
-	transition:transform 0.5s, opacity 0.5;
+	-webkit-transform:scale(1.15);
+	        transform:scale(1.15);
+	-webkit-transition: opacity 0.5, -webkit-transform 0.5s;
+	transition: opacity 0.5, -webkit-transform 0.5s;
+	transition: transform 0.5s, opacity 0.5;
+	transition:transform 0.5s, opacity 0.5, -webkit-transform 0.5s;
 }
 
 .portfolio-image img:hover {
-	transform: scale(1);
+	-webkit-transform: scale(1);
+	        transform: scale(1);
 	opacity: 1;
 
 }
@@ -293,6 +301,7 @@ input[type=submit] :hover {
 
 /* TESTIMONIAL SECTION */
 .testimonials_section {
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
 	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(/My_Digisolve/Digisolve/resources/css/img/testimonial-background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -514,6 +523,7 @@ footer {
 .social-links li a:visited {
 	color: #888;
 	text-decoration: none;
+	-webkit-transition: color 0.2s;
 	transition:color 0.2s;
 }
 
@@ -538,6 +548,7 @@ footer {
 .fa-twitter,
 .fa-google-plus-g,
 .fa-instagram {
+	-webkit-transition: color 0.2s ;
 	transition:color 0.2s ;
 }
 
@@ -566,3 +577,5 @@ footer p {
 
 
 
+
+	
