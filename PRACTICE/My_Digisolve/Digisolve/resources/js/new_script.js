@@ -4,11 +4,11 @@ $(document).ready(function() {
     });
 });
 
-$(".js--about-section").waypoint(function(direction) {
+$(".about-section").waypoint(function(direction) {
     if(direction=="down") {
-        $("nav").addClass('sticky-nav');
+        $("nav").addClass('sticky_nav');
     }
     else {
-        $("nav").removeClass('sticky-nav');
+        $("nav").removeClass('sticky_nav');
     }
-}); 
+});  
